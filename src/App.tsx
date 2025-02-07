@@ -209,7 +209,7 @@ function randomPhone() {
 }
 
 export default function App() {
-  const [guesses, setGuesses] = useState<number[]>([randomPhone()]);
+  const [guesses, setGuesses] = useState([randomPhone()]);
 
   const [correct, setCorrect] = useState(false);
 
